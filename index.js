@@ -124,6 +124,7 @@ function endGame() {
   ROCKS.forEach(function(rock){ rock.remove()})
   document.removeEventListener('keydown', moveDodger);
   var e = alert("YOU LOSE!")
+  START.innerHTML = 'WANNA FUCK UP AGAIN??'
   return e.close()
 
 }
